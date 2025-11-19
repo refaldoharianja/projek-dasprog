@@ -4,7 +4,7 @@ void resistorSeri() {
     int n, i;
     double r_val, total = 0;
 
-    printf("\n--- Kalkulator Resistor Seri ---\n");
+    printf("\n=== Kalkulator Resistor Seri ===\n");
     printf("Masukkan jumlah resistor: ");
     scanf("%d", &n);
 
