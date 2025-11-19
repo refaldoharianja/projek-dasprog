@@ -1,0 +1,31 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <math.h>
+#include <ctype.h>
+
+#define MAX_HEX_LENGTH 20
+#define MAX_BIN_LENGTH 64
+
+// Fungsi untuk membersihkan layar
+void clearScreen() {
+    #ifdef _WIN32
+        system("cls");
+    #else
+        system("clear");
+    #endif
+}
+
+// Fungsi untuk membersihkan buffer input
+void clearBuffer() {
+    int c;
+    while ((c = getchar()) != '\n' && c != EOF);
+}
+
+// Fungsi jeda
+void waitEnter() {
+    printf("\nTekan Enter untuk kembali ke menu utama...");
+    clearBuffer(); // Menangkap enter terakhir
+    getchar();     // Menunggu enter baru
+}
+void heksaKeDesimal();
