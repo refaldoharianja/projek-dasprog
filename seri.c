@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include "seri.h"
 void resistorSeri() {
     int n, i;
     double r_val, total = 0;
