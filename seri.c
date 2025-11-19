@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "seri.h"
+
 void seriCalculator() {
     int n, i;
     double r_val, total = 0;
