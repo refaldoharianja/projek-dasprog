@@ -15,10 +15,10 @@ int main() {
         printf("3. Kalkulator Resistor Seri\n");
         printf("4. Kalkulator Resistor Paralel\n");
 
-        printf("=== MENU KONVERSI BILANGAN ===\n");
+        printf("\n=== MENU KONVERSI BILANGAN ===\n");
         printf("5. Konversi Desimal ke Biner/Oktal/Heksadesimal\n");
         
-        printf("6. Keluar\n");
+        printf("\n6. Keluar\n");
         printf("Pilih menu (1-6): ");
         scanf("%d", &pilihan);
 
@@ -38,7 +38,7 @@ int main() {
             desimalConverter();
         }
         else if (pilihan == 6) {
-            printf("Program selesai.\n");
+            printf("Terima Kasih telah menggunakan toolkit ini!.\n");
         }
         else {
             printf("Pilihan tidak tersedia.\n");
