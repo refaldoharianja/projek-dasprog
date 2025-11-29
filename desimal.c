@@ -5,7 +5,7 @@ void desimalConverter() {
   int n, sisa, i = 0;
   int biner[32], oktal[32], heksa[32];
 
-  printf("=== KONVERSI DESIMAL KE BASIS LAIN ===\n");
+  printf("=== KONVERSI DESIMAL KE BINER/OKTAL/HEKSADESIMAL ===\n");
   printf("Masukkan bilangan desimal: ");
   scanf("%d", &n);
 
