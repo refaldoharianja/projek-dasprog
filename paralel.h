@@ -1,6 +1,6 @@
 #ifndef PARALEL_H
 #define PARALEL_H
 
-Void paralelCalculator();
+void paralelCalculator();
 
 #endif
