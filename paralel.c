@@ -5,7 +5,7 @@ void paralelCalculator() {
   int jumlah, i;
   float R, total = 0, hasil;
 
-  printf("=== KALKULATOR RESISTOR PARALEL ===\n");
+  printf("\n=== KALKULATOR RESISTOR PARALEL ===\n");
   printf("Masukkan jumlah resistor: ");
   scanf("%d", &jumlah);
 
