@@ -4,7 +4,7 @@
 void dayaCalculator() {
     float V, I, P;
 
-    printf("=== KALKULATOR DAYA LISTRIK ===\n");
+    printf("\n=== KALKULATOR DAYA LISTRIK ===\n");
     printf("Masukkan Tegangan (Volt): ");
     scanf("%f", &V);
     printf("Masukkan Arus (Ampere): ");
