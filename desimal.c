@@ -20,7 +20,7 @@ void desimalConverter() {
   int biner_len = i;
 
   temp = n;
-  int = 0;
+  i = 0;
   while (temp > 0) {
     oktal[i] = temp % 8;
     temp /= 8;
@@ -29,7 +29,7 @@ void desimalConverter() {
   int oktal_len = i;
 
   temp = n;
-  int = 0;
+  i = 0;
   while (temp > 0) {
     sisa = temp % 16;
     heksa[i] = sisa;
@@ -50,7 +50,7 @@ void desimalConverter() {
   }
   printf("\n");
 
-  printf("Heksadesimal: "):
+  printf("Heksadesimal: ");
   for (i = heksa_len - 1; i >= 0; i--) {
     if (heksa[i] < 10)
       printf("%d", heksa[i]);
