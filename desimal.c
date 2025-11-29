@@ -38,13 +38,13 @@ void desimalConverter() {
   }
   int heksa_len = i;
 
-  printf("Biner: ");
+  printf("Biner      : ");
   for (i = biner_len - 1; i >= 0; i--) {
     printf("%d", biner[i]);
   }
   printf("\n");
 
-  printf("Oktal: ");
+  printf("Oktal      : ");
   for (i = oktal_len - 1; i >= 0; i--) {
     printf("%d", oktal[i]);
   }
