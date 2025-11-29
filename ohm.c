@@ -5,7 +5,7 @@ void ohmCalculator() {
     int pilihan;
     float V, I, R;
 
-    printf("=== KALKULATOR HUKUM OHM ===\n");
+    printf("\n=== KALKULATOR HUKUM OHM ===\n");
     printf("1. Hitung Tegangan (V)\n");
     printf("2. Hitung Arus (I)\n");
     printf("3. Hitung Hambatan (R)\n");
