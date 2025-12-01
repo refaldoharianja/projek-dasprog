@@ -14,7 +14,6 @@ void oktalConverter() {
         digit_terakhir = n % 10;
         if (digit_terakhir >= 8) {
             printf("Error: %lld bukan bilangan oktal yang valid.\n", n_awal);
-            return 1;
         }
 
         desimal = desimal + digit_terakhir * basis;
@@ -23,6 +22,4 @@ void oktalConverter() {
     }
     
     printf("Bilangan desimal dari oktal %lld adalah: %d\n", n_awal, desimal);
-
-    return 0;
 }
