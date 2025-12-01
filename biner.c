@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "desimal.h"
+#include "biner.h"
 
 void binerKeDesimal() {
     long long n;
