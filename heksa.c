@@ -3,7 +3,7 @@
 #include <math.h>
 #include "heksa.h"
 
-void heksaKeDesimal() {
+void heksaKeConverter() {
     char hex[20];
     long long desimal = 0, basis = 1;
     int i, panjang, nilai_digit;
