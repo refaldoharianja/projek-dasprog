@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "biner.h"
 
-void binerKeDesimal() {
+void binerConverter() {
     long long n;
     int desimal = 0, basis = 1, sisa;
     
