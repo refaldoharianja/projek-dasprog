@@ -25,7 +25,7 @@ int main() {
         printf("8. Konversi Heksadesimal ke Desimal\n");
         
         printf("\n9. Keluar\n");
-        printf("Pilih menu (1-6): ");
+        printf("Pilih menu (1-9): ");
         scanf("%d", &pilihan);
 
         if (pilihan == 1) {
