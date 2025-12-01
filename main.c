@@ -4,6 +4,9 @@
 #include "seri.h"
 #include "paralel.h"
 #include "desimal.h"
+#include "biner.h"
+#include "oktal.h"
+#include "heksa.h"
 
 int main() {
     int pilihan;
@@ -17,8 +20,11 @@ int main() {
 
         printf("\n=== MENU KONVERSI BILANGAN ===\n");
         printf("5. Konversi Desimal ke Biner/Oktal/Heksadesimal\n");
+        printf("6. Konversi Biner ke Desimal\n");
+        printf("7. Konversi Oktal ke Desimal\n");
+        printf("8. Konversi Heksadesimal ke Desimal\n");
         
-        printf("\n6. Keluar\n");
+        printf("\n9. Keluar\n");
         printf("Pilih menu (1-6): ");
         scanf("%d", &pilihan);
 
@@ -38,6 +44,15 @@ int main() {
             desimalConverter();
         }
         else if (pilihan == 6) {
+            binerConverter();
+        }
+        else if (pilihan == 7) {
+            oktalConverter();
+        }
+        else if (pilihan == 8) {
+            heksaConverter();
+        }
+        else if (pilihan == 9) {
             printf("Terima Kasih telah menggunakan toolkit ini!.\n");
         }
         else {
@@ -46,7 +61,7 @@ int main() {
 
         printf("\n");
 
-    } while (pilihan != 6);
+    } while (pilihan != 9);
 
     return 0;
 }
