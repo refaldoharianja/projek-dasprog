@@ -1,6 +1,6 @@
 #ifndef BINER_H
 #define BINER_H
 
-void binerKeDesimal();
+void binerConverter();
 
 #endif
