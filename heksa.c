@@ -25,7 +25,6 @@ void heksaConverter() {
         }
         else {
             printf("Error: Karakter '%c' bukan heksadesimal yang valid.\n", hex[i]);
-            return 1;
         }
         
         desimal = desimal + (nilai_digit * basis);
@@ -33,6 +32,4 @@ void heksaConverter() {
     }
 
     printf("Bilangan desimal dari heksadesimal %s adalah: %lld\n", hex, desimal);
-
-    return 0;
 }
