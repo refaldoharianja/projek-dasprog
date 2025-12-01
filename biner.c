@@ -18,6 +18,4 @@ void binerConverter() {
     }
 
     printf("Bilangan desimal dari %lld adalah: %d\n", n_awal, desimal);
-
-    return 0;
 }
