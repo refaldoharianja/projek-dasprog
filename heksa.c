@@ -8,7 +8,7 @@ void heksaConverter() {
     long long desimal = 0, basis = 1;
     int i, panjang, nilai_digit;
 
-    printf("\n--- Konversi Heksadesimal ke Desimal ---\n");
+    printf("\n=== Konversi Heksadesimal ke Desimal ===\n");
     printf("Masukkan bilangan heksadesimal (contoh: 1A, FF, 2C): ");
     scanf("%s", hex);
 
