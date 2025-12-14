@@ -5,7 +5,7 @@ void binerConverter() {
     long long n;
     int desimal = 0, basis = 1, sisa;
     
-    printf("\n--- Konversi Biner ke Desimal ---\n");
+    printf("\n=== Konversi Biner ke Desimal ===\n");
     printf("Masukkan bilangan biner (contoh: 1011): ");
     scanf("%lld", &n);
 
