@@ -5,7 +5,7 @@ void oktalConverter() {
     long long n;
     int desimal = 0, basis = 1, digit_terakhir;
 
-    printf("\n--- Konversi Oktal ke Desimal ---\n");
+    printf("\n=== Konversi Oktal ke Desimal ===\n");
     printf("Masukkan bilangan oktal (contoh: 157): ");
     scanf("%lld", &n);
 
