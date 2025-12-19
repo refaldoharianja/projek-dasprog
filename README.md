@@ -50,3 +50,6 @@ Pastikan seluruh file berada dalam satu folder.
 - Pengguna memilih menu sesuai kebutuhan
 - Program memproses input dan menampilkan hasil perhitungan
 - Setiap fitur diletakkan pada file terpisah agar mudah dipahami dan dikembangkan
+
+## Dataset
+[Download file di Google Drive](https://drive.google.com/drive/folders/1I7taT0NW6dK1854E2dB4lGM7-bRfV-II?usp=drive_link)
