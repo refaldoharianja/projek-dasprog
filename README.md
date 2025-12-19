@@ -52,4 +52,4 @@ Pastikan seluruh file berada dalam satu folder.
 - Setiap fitur diletakkan pada file terpisah agar mudah dipahami dan dikembangkan
 
 ## Dataset
-[Download file di Google Drive](https://drive.google.com/drive/folders/1I7taT0NW6dK1854E2dB4lGM7-bRfV-II?usp=drive_link)
+[File GDrive screenshot dan screen record project](https://drive.google.com/drive/folders/1I7taT0NW6dK1854E2dB4lGM7-bRfV-II?usp=drive_link)
